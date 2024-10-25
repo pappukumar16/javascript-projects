@@ -1,0 +1,84 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.pexels.com/photos/28575769/pexels-photo-28575769/free-photo-of-misty-mountain-peaks-in-soca-valley.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.content{
+    padding-top: 4rem;
+    
+}
+
+.display-container{
+    border-radius: 0.5rem;
+    border-bottom: 4px solid black;
+    padding: 2px;
+    width: 100%;
+    background-color: rgba(240, 255, 255, 0.897);
+
+}
+
+
+.display{
+    padding: 1rem;
+    width: 80%;
+    border-style: none;
+    outline: none;
+    border-radius: 0.5rem;
+    background-color: rgba(240, 255, 255, 0.897);
+}
+
+.copyBtn{
+    padding: 5px;
+    border-style: none;
+    border-radius: 0.5rem;
+    background-color: rgba(240, 255, 255, 0.897);
+   vertical-align: calc(100% - 2em);
+   cursor: pointer;
+}
+
+.copyBtn:hover{
+    transform: scale(0.8);
+}
+
+.genBtn {
+    background-color: #9fae9f; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.2s; /* Transition effects */
+}
+
+.genBtn:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+}
+
+.genBtn:active {
+    transform: scale(0.95); /* Smaller on click */
+}
+
+
+
+
